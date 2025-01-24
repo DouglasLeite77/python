@@ -1,12 +1,16 @@
 from modelos.restaurante import Restaurante
+from modelos.cardapio.bebidas import Bebida
+from modelos.cardapio.pratos import Prato
 
 restaurante_praca = Restaurante('praça', 'Gourmet')
-restaurante_praca.receber_avaliacao('Gui', 10)
-restaurante_praca.receber_avaliacao('Lais', 8)
-restaurante_praca.receber_avaliacao('Emy', 2)
+suco = Bebida('Suco', 5,'x', 'x', 'Grande')
+arroz = Prato('Arroz', 5, 'Simples arroz','x')
+restaurante_praca.adiciona_no_cardapio(suco)
+restaurante_praca.adiciona_no_cardapio(arroz)
+
 
 def main():
-    Restaurante.listar_restaurantes()
+    restaurante_praca.exibir_cardapio
 
 if __name__ == '__main__':
     main()
