@@ -53,6 +53,9 @@ class Restaurante:
             if  hasattr(item,'_tamanho'):
                 mensagem_bebida = f'{i}. Nome: {item._nome} | Preço: {item._preco} | Tamanho: {item._tamanho}'
                 print(mensagem_bebida)
+            elif hasattr(item, '_tipo'):
+                mensagem_sobremesa = f'{i}. Nome: {item._nome} | Preço: {item._preco} | Tipo: {item._tipo}'
+                print(mensagem_sobremesa) 
             else:
                 mensagem = f'{i}. Nome:{item._nome} | Preço: {item._preco} | Descrição: {item._descricao}'
                 print(mensagem)
