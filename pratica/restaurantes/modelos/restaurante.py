@@ -1,4 +1,4 @@
-from models.avaliacao import Avaliacao
+from modelos.avaliacao import Avaliacao
 
 class Restaurante:
 
@@ -8,17 +8,17 @@ class Restaurante:
         self._nome = nome
         self._categoria = categoria
         self._ativo = False
-        self._avaliação = []
+        self._avaliacao = []
         Restaurante.restaurantes.append(self)
 
     def __str__(self):
         return f'{self._nome} | {self._categoria}'
 
     @classmethod
-    def listar_restaurentes(cls):
+    def listar_restaurantes(cls):
         print(f'{'Nome do restaurante'.ljust(25)} | {'Categoria'.ljust(25)} | {'Avaliação'.ljust(25)} |{'Status'}')
-        for restaurante in cls.restaurentes:
-            print(f'{restaurante._nome.ljust(25)} | {restaurante._categoria.ljust(25)} | {str(restaurante.media_avaliacoes).ljust(25)} |{restaurante.ativo}') 
+        for restaurante in cls.restaurantes:
+            print(f'{restaurante._nome.ljust(25)} | {restaurante._categoria.ljust(25)} | {str(restaurante.media_avaliacao).ljust(25)} |{restaurante.ativo}') 
     
     @property
     def ativo(self):
@@ -30,13 +30,13 @@ class Restaurante:
     def receber_avaliacao(self, cliente, nota):
         if 0 < nota < 5:
             avaliacao = Avaliacao(cliente, nota)
-            self._avaliação.append(avaliacao)
+            self._avaliacao.append(avaliacao)
     
     @property
     def media_avaliacao(self):
-        if not self._avaliação:
-            return 'Sem avaliações'
-        soma_das_notas = sum(avaliacao._nota for avaliacao in self._avaliação)
-        quantidade_notas = len(self._avaliação)
-        media = round(soma_das_notas / quantidade_notas, 1)
+        if not self._avaliacao:
+            return '-'
+        soma_das_notas = sum(avaliacao._nota for avaliacao in self._avaliacao)
+        quantidade_de_notas = len(self._avaliacao)
+        media = round(soma_das_notas / quantidade_de_notas, 1)
         return media
