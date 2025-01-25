@@ -6,7 +6,7 @@ from modelos.cardapio.sobremesa import Sobremesa
 restaurante_praca = Restaurante('praça', 'Gourmet')
 suco = Bebida('Suco', 5,'x', 'x', 'Grande')
 arroz = Prato('Arroz', 5, 'Simples arroz','x')
-tuta = Sobremesa('tuta', 2, 'x', 'x', 'tutinha')
+tuta = Sobremesa('Porca prenha', 2, 'x', 'x', 'tutinha')
 suco.aplicar_desconto()
 arroz.aplicar_desconto()
 restaurante_praca.adiciona_no_cardapio(suco)
