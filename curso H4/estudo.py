@@ -1,12 +1,10 @@
 # %%
-print('teste')
+num = 4
 
-
-# %%
-num = 0
-
-while num > 100:
-    print(num)
-    num = num + 2
-
+while num <= 100:
+    resto = num % 4
+    if resto == 0:
+        print(num)
+        num += 1
+    
 # %%
