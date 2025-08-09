@@ -26,3 +26,10 @@ while i < 4:
     i += 1
 print(soma)
 # %%
+total = 0
+for i in range(4):
+    soma = int(input('Digite a altura'))
+    total = total + soma
+
+print(total)
+# %%
