@@ -1,0 +1,32 @@
+[
+    {
+        "cep": "45020-300",
+        "logradouro": "Avenida Crescêncio Lacerda",
+        "complemento": "de 97/98 ao fim",
+        "unidade": "",
+        "bairro": "Recreio",
+        "localidade": "Vitória da Conquista",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "ibge": "2933307",
+        "gia": "",
+        "ddd": "77",
+        "siafi": "3965"
+    },
+    {
+        "cep": "45020-700",
+        "logradouro": "Avenida São Geraldo",
+        "complemento": "",
+        "unidade": "",
+        "bairro": "Recreio",
+        "localidade": "Vitória da Conquista",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "ibge": "2933307",
+        "gia": "",
+        "ddd": "77",
+        "siafi": "3965"
+    }
+]
