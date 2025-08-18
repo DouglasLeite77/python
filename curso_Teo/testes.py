@@ -1,7 +1,9 @@
 # %%
 import requests
 import json
+from tqdm import tqdm
 
+# %%
 
 ceps = [
     "45020300",
@@ -10,7 +12,7 @@ ceps = [
 
 dados = []
 
-for i in ceps:
+for i in tqdm(ceps):
 
     url = f'https://viacep.com.br/ws/{i}/json/'
     resposta = requests.get(url)
@@ -25,3 +27,4 @@ dados
 with open('ceps.json', 'w', encoding='utf-8') as file:
     json.dump(dados, file, ensure_ascii=False, indent=4)
 # %%
+
