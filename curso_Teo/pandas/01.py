@@ -28,3 +28,5 @@ colunas
 # %%
 df[colunas]
 # %%
+
+# %%
