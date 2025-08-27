@@ -12,7 +12,11 @@ df['DtCriacao'].head()
 df['DtCriacao'] = df['DtCriacao'].apply(lambda x: x.split('.')[0])
 # %%
 
-pd.to_datetime(df['DtCriacao'])
+df['DtCriacao'] = pd.to_datetime(df['DtCriacao'])
 # %%
 df['DtCriacao']
+# %%
+
+df[df['DtCriacao'].dt.year == 2024]
+
 # %%
