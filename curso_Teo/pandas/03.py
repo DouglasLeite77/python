@@ -24,6 +24,12 @@ def verificação(linha):
 ufs.apply(verificação, axis=1)
 # %%
 
-ufs.apply(lambda x: x['Abreviação'] == 'AC', axis=1)
+ufs.apply(lambda x: x['PIB per capita (R$) (2015)'], axis=1)
+
+# %%
+ufs[ufs['Abreviação'] == 'AC']
+# %%
+
+ufs['PIB per capita (R$) (2015)']
 
 # %%
