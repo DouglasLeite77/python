@@ -1,0 +1,11 @@
+id,data,servico,bairro,status,prioridade,custo_estimado
+1,2025-01-10,Iluminação Pública,Centro,Concluído,Baixa,R$ 150.00
+2,2025-01-12,Buraco na Via,Candeias,Pendente,Alta,R$ 1200.00
+3,2025-01-15,Poda de Árvore,Recreio,Em Aberto,Média,R$ 450.00
+4,2025-01-18,Limpeza de Canal,Brasil,Pendente,Alta,R$ 3500.00
+5,2025-01-20,Iluminação Pública,Candeias,Concluído,Baixa,R$ 150.00
+6,2025-01-22,Buraco na Via,Centro,Pendente,Média,R$ 800.00
+7,2025-01-25,Sinalização,Recreio,Em Aberto,Alta,R$ 2100.00
+8,2025-01-28,Poda de Árvore,Brasil,Concluído,Baixa,R$ 300.00
+9,2025-01-30,Limpeza de Canal,Centro,Pendente,Alta,R$ 4200.00
+10,2025-02-02,Iluminação Pública,Brasil,Em Aberto,Média,R$ 200.00
