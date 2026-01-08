@@ -1,6 +1,7 @@
 # %%
 import pandas as pd
 from csv import reader
+import numpy as np
 # %%
 
 file = open("./data.csv", encoding='utf-8')
@@ -56,6 +57,32 @@ for i in df[1:]:
         case  i if i[6] > 2000:
             i.append("Investimento Alto")
         
+# %%
+df
+# %%
+df = pd.read_csv("./data.csv", header=0)
+df.head()
+
+alta = df[df['prioridade'] == "Alta"]
+alta
+
+df['custo_estimado'] = df['custo_estimado'].str.replace("R$", "").astype(float)
+df.head()
+# %%
+
+resumo = df.groupby('bairro')["custo_estimado"].count()
+resumo
+# %%
+df_agg = df.groupby('servico')['custo_estimado'].agg(['sum','mean','count'])
+df_agg
+# %%
+df = df[df['bairro'] == "Centro"][df["custo_estimado"] > 1000]
+df.iloc[0, [1,2,5]]
+# %%
+filtro_centro = df.loc[(df['bairro'] == 'Centro') & (df['custo_estimado'] > 1000),['data','servico','prioridade']]
+filtro_centro
+# %%
+df['alerta_orcamento'] = np.where(df["custo_estimado"] > 3000, 'Revisão necessário', 'Dentro do Limite')
 # %%
 df
 # %%
