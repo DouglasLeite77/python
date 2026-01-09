@@ -86,3 +86,43 @@ df['alerta_orcamento'] = np.where(df["custo_estimado"] > 3000, 'Revis√£o necess√
 # %%
 df
 # %%
+df.isnull().sum()
+# %%
+df['custo_estimado'].fillna('R$ 100')
+# %%
+df = pd.read_csv('./dados_limpeza.csv')
+df
+# %%
+df.isnull().sum()
+# %%
+df.info()
+
+df.describe()
+# %%
+df['custo'] = df['custo'].fillna("R$ 100.00")
+df
+# %%
+df = df.drop_duplicates()
+
+# %%
+
+df['status'].value_counts()
+# %%
+
+df['bairro'] = df['bairro'].str.lower().str.title().str.strip()
+df['status'] = df['status'].str.lower().str.title().str.strip()
+df.head()
+# %%
+
+df['custo'] = df['custo'].str.replace("R$", "").str.strip().astype(float)
+df.head()
+
+
+# %%
+
+df.head()
+# %%
+df['data'] = df['data'].str.replace('/','-')
+# %%
+pd.to_datetime(df['data'], dayfirst=True)
+# %%

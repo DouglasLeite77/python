@@ -1,0 +1,52 @@
+id,data,servico,bairro,status,prioridade,custo,responsavel
+1,2025-01-01,Iluminação,Centro,Concluído,Baixa,R$ 150.00,Joao
+2,2025-01-02,Buraco,Candeias,Pendente,Alta,R$ 1200.00,Maria
+2,2025-01-02,Buraco,Candeias,Pendente,Alta,R$ 1200.00,Maria
+3,03/01/2025,Poda,Recreio,Em Aberto,Média,,Carlos
+4,2025-01-04,Limpeza, BRASIL,Pendente,Alta,R$ 3500.00,Ana
+5,2025-01-05,Iluminação,Candeias,concluído,Baixa,R$ 150.00,Joao
+6,06-01-2025,Buraco,Centro,Pendente,Média,R$ 800.00,Maria
+7,2025-01-07,Sinalização,recreio,Em Aberto,Alta,R$ 2100.00,
+8,2025-01-08,Poda,Brasil,Concluído,Baixa,R$ 300.00,Carlos
+9,2025-01-09,Limpeza,Centro,Pendente,Alta,,Ana
+10,2025-01-10,Iluminação,Brasil,Em Aberto,Média,R$ 200.00,Joao
+11,2025-01-11,Buraco,Candeias,Pendente,Alta,R$ 1100.00,Maria
+12,2025-01-12,Poda,Recreio,Concluído,Baixa,R$ 250.00,Carlos
+13,2025-01-13,Sinalização,Centro,Pendente,Alta,R$ 1500.00,Ana
+14,2025-01-14,Limpeza,Brasil,Em Aberto,Média,R$ 4000.00,
+15,2025-01-15,Iluminação,Candeias,Concluído,Baixa,R$ 150.00,Joao
+16,2025-01-16,Buraco,Recreio,Pendente,Alta,R$ 900.00,Maria
+17,2025-01-17,Poda,Brasil,Em Aberto,Média,R$ 400.00,Carlos
+18,2025-01-18,Sinalização,Centro,Concluído,Baixa,R$ 1800.00,Ana
+19,2025-01-19,Limpeza,Candeias,Pendente,Alta,R$ 3200.00,Joao
+20,2025-01-20,Iluminação,Recreio,Em Aberto,Média,R$ 210.00,Maria
+21,2025-01-21,Buraco,Brasil,Pendente,Alta,R$ 1300.00,Carlos
+22,2025-01-22,Poda,Centro,Concluído,Baixa,R$ 350.00,Ana
+23,2025-01-23,Sinalização,Candeias,Pendente,Alta,R$ 2200.00,Joao
+24,2025-01-24,Limpeza,Recreio,Em Aberto,Média,R$ 3800.00,Maria
+25,2025-01-25,Iluminação,Brasil,Concluído,Baixa,R$ 180.00,Carlos
+26,2025-01-26,Buraco,Centro,Pendente,Alta,R$ 1150.00,Ana
+27,2025-01-27,Poda,Candeias,Em Aberto,Média,,Joao
+28,2025-01-28,Sinalização,Recreio,Concluído,Baixa,R$ 1900.00,Maria
+29,2025-01-29,Limpeza,Brasil,Pendente,Alta,R$ 4100.00,Carlos
+30,2025-01-30,Iluminação,Centro,Em Aberto,Média,R$ 220.00,Ana
+31,2025-01-31,Buraco,Candeias,Concluído,Baixa,R$ 1000.00,Joao
+32,2025-02-01,Poda,Recreio,Pendente,Alta,R$ 500.00,Maria
+33,2025-02-02,Sinalização,Brasil,Em Aberto,Média,R$ 2050.00,Carlos
+34,2025-02-03,Limpeza,Centro,Concluído,Baixa,R$ 3600.00,Ana
+35,2025-02-04,Iluminação,Candeias,Pendente,Alta,R$ 170.00,Joao
+36,2025-02-05,Buraco,Recreio,Em Aberto,Média,R$ 850.00,Maria
+37,2025-02-06,Poda,Brasil,Concluído,Baixa,R$ 320.00,Carlos
+38,2025-02-07,Sinalização,Centro,Pendente,Alta,R$ 1600.00,Ana
+39,2025-02-08,Limpeza,Candeias,Em Aberto,Média,R$ 3900.00,Joao
+40,2025-02-09,Iluminação,Recreio,Concluído,Baixa,R$ 190.00,Maria
+41,2025-02-10,Buraco,Brasil,Pendente,Alta,R$ 1250.00,Carlos
+42,2025-02-11,Poda,Centro,Em Aberto,Média,,Ana
+43,2025-02-12,Sinalização,Candeias,Concluído,Baixa,R$ 2150.00,Joao
+44,2025-02-13,Limpeza,Recreio,Pendente,Alta,R$ 3400.00,Maria
+45,2025-02-14,Iluminação,Brasil,Em Aberto,Média,R$ 230.00,Carlos
+46,2025-02-15,Buraco,Centro,Concluído,Baixa,R$ 1050.00,Ana
+47,2025-02-16,Poda,Candeias,Pendente,Alta,R$ 480.00,Joao
+48,2025-02-17,Sinalização,Recreio,Em Aberto,Média,R$ 1950.00,Maria
+49,2025-02-18,Limpeza,Brasil,Concluído,Baixa,R$ 3700.00,Carlos
+49,2025-02-18,Limpeza,Brasil,Concluído,Baixa,R$ 3700.00,Carlos
