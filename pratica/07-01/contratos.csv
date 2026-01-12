@@ -1,11 +1,11 @@
 id_contrato,data_assinatura,fornecedor,objeto,valor_contrato,prazo_meses,fiscal
-CNTR-001,2025/05/10,  TECNOLOGIA S.A ,Manutenção de computadores,R$ 15.400,50,12,João Silva
-CNTR-002,15-06-2025,LIMPEZA TOTAL LTDA,Serviços de limpeza ,R$ 105.000,00,24,Maria Souza
-CNTR-003,2025-07-20,Construir Bem,Reforma da praça,R$ 250.000,00,6,
-CNTR-004,10/08/2025,tecnologia s.a,Licenciamento de software,R$ 8.900,90,12,João Silva
-CNTR-005,2025.09.12,PAPELARIA ABC,Material de escritório,R$ 2.350,00,3,Ana Costa
-CNTR-006,2025-10-01, Limpeza Total Ltda,Limpeza de vidros,R$ 12.000,75,12,Maria Souza
+CNTR-001,2025/05/10,  TECNOLOGIA S.A ,Manutenção de computadores,15400.50,12,João Silva
+CNTR-002,15-06-2025,LIMPEZA TOTAL LTDA,Serviços de limpeza ,105000.00,24,Maria Souza
+CNTR-003,2025-07-20,Construir Bem,Reforma da praça,250000.00,6,
+CNTR-004,10/08/2025,tecnologia s.a,Licenciamento de software,8900.90,12,João Silva
+CNTR-005,2025.09.12,PAPELARIA ABC,Material de escritório,2350.00,3,Ana Costa
+CNTR-006,2025-10-01, Limpeza Total Ltda,Limpeza de vidros,12000.75,12,Maria Souza
 CNTR-007,05/11/2025,CONSTRUIR BEM,Reparo de telhado,,8,Carlos Lima
-CNTR-008,2025-12-15,auto peças x,Peças de reposição,R$ 4.500,00,6,Ana Costa
-CNTR-009,20/01/2026,Tecnologia S.A,Suporte de rede,R$ 20.000,00,,João Silva
-CNTR-010,2026-02-10,Papelaria Abc,Toners e cartuchos,R$ 1.100,20,3,
+CNTR-008,2025-12-15,auto peças x,Peças de reposição,4500.00,6,Ana Costa
+CNTR-009,20/01/2026,Tecnologia S.A,Suporte de rede,20000.00,,João Silva
+CNTR-010,2026-02-10,Papelaria Abc,Toners e cartuchos,1100.20,3,
