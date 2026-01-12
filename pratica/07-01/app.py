@@ -98,15 +98,9 @@ df.isnull().sum()
 df.info()
 
 df.describe()
-# %%
-df['custo'] = df['custo'].fillna("R$ 100.00")
-df
-# %%
+
 df = df.drop_duplicates()
 
-# %%
-
-df['status'].value_counts()
 # %%
 
 df['bairro'] = df['bairro'].str.lower().str.title().str.strip()
@@ -117,12 +111,15 @@ df.head()
 df['custo'] = df['custo'].str.replace("R$", "").str.strip().astype(float)
 df.head()
 
-
 # %%
-
+df['custo'] = df['custo'].fillna(df['custo'].mean()).round()
+df.head()
+df['responsavel'] = df['responsavel'].fillna('Não atribuido')
 df.head()
 # %%
 df['data'] = df['data'].str.replace('/','-')
+
+df.head()
 # %%
-pd.to_datetime(df['data'], dayfirst=True)
+df['data'] = pd.to_datetime(df['data'], dayfirst=True, errors='coerce',format='mixed')
 # %%
