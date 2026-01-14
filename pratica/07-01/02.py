@@ -42,3 +42,20 @@ df['data_assinatura'] = pd.to_datetime(df['data_assinatura'], format='mixed')
 relatorio = df.groupby('fiscal').agg(total = ('valor_contrato', 'sum'), media = ('valor_contrato', 'mean'), qtd = ('valor_contrato', 'count'))
 relatorio
 # %%
+df['iss_retido'] = (df['valor_contrato'] * 0.05).round(2)
+
+df['valor_mensal'] = (df['valor_contrato'] / df['prazo_meses']).round(2)
+
+media_geral = df['valor_contrato'].mean()
+
+df['acima_da_media'] = df['valor_contrato'] > media_geral
+df.head()
+
+# %%
+
+df.pivot_table(index='fiscal', columns='tipo_empresa', values='valor_contrato', aggfunc='sum')
+
+# %%
+
+
+df.head()
