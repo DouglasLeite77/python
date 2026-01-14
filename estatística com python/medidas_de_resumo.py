@@ -35,3 +35,4 @@ usuario
 # %%
 
 usuario[['idTransacao','qtdPontos']].describe()
+# %%
