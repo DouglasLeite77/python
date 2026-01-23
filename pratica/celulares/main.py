@@ -40,6 +40,23 @@ df['Display describe'] = df['Display describe'].str.replace(")",'')
 split04 = df['Camera'].str.split("|", n=1, expand=True)
 
 df['Camera'] = split04[0]
-df = df.rename(columns={'Camera':'Camera traseira'})
-df.insert(11,'Camera frontal',split04[1])
+df = df.rename(columns={'Camera':'Camera_traseira'})
+df.insert(11,'Camera_frontal',split04[1])
+
+df = df.rename(columns={'Percentage Discount':'Porcentagem_desconto'})
+df = df.rename(columns={'Battery Capacity':'Capacidade_bateria'})
+
+df['Model'] = df['Model'].str.lower().str.strip().str.replace(r'\s+',' ', regex=True)
 df.head()
+
+# %%
+
+query = """
+select * from df
+where model = "vivo y19s 5g"
+"""
+
+resp = pandasql.sqldf(query, locals())
+resp
+
+
